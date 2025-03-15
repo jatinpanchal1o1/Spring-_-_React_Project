@@ -1,0 +1,30 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('https://via.placeholder.com/1500') no-repeat center center;
+  background-size: cover;
+}
+
+.signup-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-btn-link {
+  padding: 0;
+}
+
+.social-signup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.social-button {
+  flex: 1;
+  margin: 0 4px;
+}

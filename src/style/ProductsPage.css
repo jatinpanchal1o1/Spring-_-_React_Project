@@ -1,0 +1,15 @@
+/* src/ProductsPage.css */
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ant-card {
+    transition: transform 0.2s;
+  }
+  
+  .ant-card:hover {
+    transform: scale(1.05);
+  }
+  
