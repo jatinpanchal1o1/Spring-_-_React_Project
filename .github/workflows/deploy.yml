@@ -24,8 +24,8 @@ jobs:
 
       - name: Build project
         # run: npm run build
-        CI: false npm run build&&gh-pages -d build
-
+        # CI: false npm run build
+        CI: false predeploy&&deploy
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
