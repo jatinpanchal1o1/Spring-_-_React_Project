@@ -24,9 +24,9 @@ jobs:
 
       - name: Build project
         # run: npm run build
-        run: npm run predeploy&&deploy
+        # run: npm run predeploy&&deploy
         # CI: false npm run build
-        # CI: false predeploy&&deploy
+        CI: false predeploy&&deploy
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
