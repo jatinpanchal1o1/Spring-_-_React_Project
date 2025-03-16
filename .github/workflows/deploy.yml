@@ -24,7 +24,7 @@ jobs:
 
       - name: Build project
         # run: npm run build
-        CI: false npm run build
+        CI: false npm run build&&gh-pages -d build
 
 
       - name: Upload production-ready build files
