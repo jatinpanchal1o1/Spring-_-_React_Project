@@ -26,7 +26,7 @@ jobs:
         # run: npm run build
         # run: npm run predeploy&&deploy
         # CI: false npm run build
-        CI: false build&&predeploy&&deploy
+        CI: false predeploy&&deploy
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
@@ -52,4 +52,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          # publish_dir: ./dist
+          publish_dir: ./dist
